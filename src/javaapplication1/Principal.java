@@ -36,7 +36,7 @@ public class Principal extends javax.swing.JFrame {
     Connection con = null;
     PreparedStatement ps = null;
     ResultSet rs=null;
-    int q;
+    int q,teste;
     //CLIENTE
     String coluna="idcliente",ordena="desc",id,pesquisa;
     int ordemid=0,ordemnome=0;
